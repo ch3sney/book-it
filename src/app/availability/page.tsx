@@ -1,4 +1,4 @@
-import { CalendarMonth } from '@/components/calendar-month'
+import CalendarMonth from '@/components/calendar-month'
 import { Heading } from '@/components/heading'
 import { getOrders } from '@/data'
 import type { Metadata } from 'next'

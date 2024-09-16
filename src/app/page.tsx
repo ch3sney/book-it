@@ -1,7 +1,9 @@
 import { Badge } from '@/components/badge'
 import { CalendarSmall } from '@/components/calendar-small'
+import CardRow from '@/components/card-row'
 import { Divider } from '@/components/divider'
 import { Heading } from '@/components/heading'
+import { Text } from '@/components/text'
 import { getRecentOrders } from '@/data'
 
 export function Stat({ title, value, change }: { title: string; value: string; change: string }) {
@@ -22,7 +24,11 @@ export default async function Home() {
 
   return (
     <>
-      <Heading>Good afternoon, Brutus</Heading>
+      <Heading>Welcome, Brutus!</Heading>
+      <div className="mb-4">
+        <Text>Organizations can view and book your venue. Here are some steps to boost your engagement.</Text>
+      </div>
+      <CardRow />
       <Divider className="mt-4" />
       <Heading className="mt-8">Venue Statistics</Heading>
       <div className="mt-4 grid gap-8 sm:grid-cols-2 xl:grid-cols-4">

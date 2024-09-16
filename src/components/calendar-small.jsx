@@ -100,7 +100,7 @@ export function CalendarSmall() {
                 type="button"
                 className={classNames(
                   day.isSelected && 'text-white',
-                  !day.isSelected && day.isToday && 'text-indigo-600',
+                  !day.isSelected && day.isToday && 'text-green-600',
                   !day.isSelected && !day.isToday && day.isCurrentMonth && 'text-gray-900',
                   !day.isSelected && !day.isToday && !day.isCurrentMonth && 'text-gray-400',
                   day.isSelected && day.isToday && 'bg-indigo-600',

@@ -25,6 +25,7 @@ import { getEvents } from '@/data'
 import {
   ArrowRightStartOnRectangleIcon,
   ChevronUpIcon,
+  InboxIcon,
   LightBulbIcon,
   ShieldCheckIcon,
   SparklesIcon,
@@ -110,6 +111,10 @@ export function ApplicationLayout({
               <SidebarItem href="/availability" current={pathname.startsWith('/availability')}>
                 <CalendarIcon />
                 <SidebarLabel>Availability</SidebarLabel>
+              </SidebarItem>
+              <SidebarItem href="/inbox" current={pathname.startsWith('/inbox')}>
+                <InboxIcon />
+                <SidebarLabel>Inbox</SidebarLabel>
               </SidebarItem>
               <SidebarItem href="/settings" current={pathname.startsWith('/settings')}>
                 <Cog6ToothIcon />
