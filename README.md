@@ -1,6 +1,6 @@
-# Catalyst Demo
+# Book-It
 
-To run the Catalyst demo, first install the npm dependencies:
+To run the application, first install the npm dependencies:
 
 ```bash
 npm install
